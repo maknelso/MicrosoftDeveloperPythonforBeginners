@@ -1,0 +1,11 @@
+output = 'Hello, ' first_name + ' ' + last_name
+output = 'Hello, {} {}'.format(first_name, last_name)     #curly brackets are placeholders
+output = 'Hello, {0} {1}'.format(first_name, last_name)
+#Only available in Python 3
+output = f'Hello, {first_name} {last_name}'
+
+
+
+Actual output (same for all 4 above):
+
+Hello, Christopher Harrison
