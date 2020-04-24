@@ -1,8 +1,0 @@
-output = 'Hello, ' first_name + ' ' + last_name
-output = 'Hello, {} {}'.format(first_name, last_name)     #curly brackets are placeholders for parameters -> e.g. 1st curly is first_name
-output = 'Hello, {0} {1}'.format(first_name, last_name)   #0 and 1 for 1st and 2nd respectively. We count from zero.
-#Only available in Python 3
-output = f'Hello, {first_name} {last_name}'    #f is for format -> can use variable names right in -> string cocatenate (self documenting)
-
-Actual output (same for all 4 above):
-Hello, Christopher Harrison
