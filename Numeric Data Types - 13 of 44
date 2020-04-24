@@ -4,3 +4,42 @@ print(first_num + second_num)
 print(first_num ** second_num)
 
 # ** == exponent
+
+output: 8 (6+2)
+output: 36 (6^2)
+
+----------------------------
+days_in_feb = 28
+print(days_in_feb + ' days in February')   #error
+
+- if you add 1 number and 1 string, Python gets confused
+- need type conversion
+
+print(str(days_in_feb) + ' days in February') #now adding two strings together - concatenate
+
+output: 28 days in February
+
+------------------------------------------
+We stored a number as a string. 
+
+first_num = '5'
+second_num = '6'
+print(first_num + second_num)
+
+output: 56
+
+-----------------------------------------
+Data type conversion:
+
+first_num = input('Enter first number')     #let it be 5
+second_num = input('Enter second number')   #let it be 6
+
+print(int(first_num) + int(second_num))
+print(float(first_num) + float(second_num))
+
+output: 11
+output: 11.0
+
+----------------------------
+Will need to use numbers when we get to arrays and lists and you need to point to an index value. E.g. start at this position
+
